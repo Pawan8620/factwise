@@ -1,0 +1,104 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.celebrity-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.celebrity-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 80%;
+}
+
+.celebrity-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.celebrity-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.celebrity-card input,
+.celebrity-card textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.celebrity-card button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.celebrity-card button:hover {
+  background-color: #45a049;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
